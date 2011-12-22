@@ -1,0 +1,46 @@
+!!! 5
+//if lt IE 7 ]><html class="ie ie6" lang="en">
+//if IE 7 ]><html class="ie ie7" lang="en">
+//if IE 8 ]><html class="ie ie8" lang="en">
+// [if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]
+head
+	meta(charset='utf-8')
+	title= 'Pushing image data to clients using Websockets'
+
+	// css
+	link(rel="stylesheet", href="/stylesheets/styles.css")
+
+	// require the main Stitch file
+	script(type='text/javascript', src='application.js')
+	
+	script(src='/socket.io/socket.io.js')
+
+body
+
+	header
+		h1 Pushing Image Data
+		h2
+			a(href='http://nodejs.org/') Node
+			&nbsp;-
+			a(href='http://expressjs.com/') Express
+			&nbsp;-
+			a(href='http://expressjs.com/') Socket.IO
+			&nbsp;-
+			a(href='http://jashkenas.github.com/coffee-script/') CoffeeScript
+			&nbsp;-
+			a(href='https://github.com/visionmedia/jade') Jade
+			&nbsp;-
+			a(href='http://learnboost.github.com/stylus/') Stylus
+			br
+			a(href='https://github.com/sectore/node-socket.io-push-image-demo') source code
+
+
+	!= body
+
+	footer
+		p
+			Example by
+				a(href='http://www.websector.de') Jens Krause
+			&nbsp; @2011
+
+| </html>

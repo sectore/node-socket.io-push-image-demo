@@ -1,0 +1,25 @@
+.content
+	ol
+		li
+			a(href='./stream') Open a second window
+			&nbsp;and link to&nbsp;
+			a(href='./showimage', target='_blank') ./showimage
+		li Click to any image to push its data
+		li Check result in&nbsp;
+			a(href='./stream') second window
+			br
+			br
+	
+	pathes = [ 'images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg' ]
+	
+	ul#imglist
+		each path, i in pathes
+			li
+				img.my-image(src='#{path}', title='Pic no. #{i}')
+
+
+script
+	$(document).ready( function() {
+		var HomeController = require("controllers/homecontroller");
+		var controller = new HomeController();
+	});
