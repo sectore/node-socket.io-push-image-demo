@@ -10,7 +10,7 @@ Installation
 1) Open Terminal
 
 	git clone https://github.com/sectore/node-socket.io-push-image-demo
-	cd nodejs-coffeescript-login/
+	cd node-socket.io-push-image-demo/
 	npm install .
 	coffee app.coffee
 
