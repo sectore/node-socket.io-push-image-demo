@@ -1,7 +1,7 @@
 Demo (on Vimeo)
 ===
 
-[![Click on screen shot to see the video on Vimeo](https://github.com/sectore/node-socket.io-push-image-demo/wiki/screenshot_vimeo.jpg "Video on Vimeo")](http://vimeo.com/34076718)
+[![Click on screen shot to see the video on Vimeo](https://github.com/sectore/node-socket.io-push-image-demo/raw/master/wiki/screenshot_vimeo.jpg "Video on Vimeo")](http://vimeo.com/34076718)
 
 
 Installation
