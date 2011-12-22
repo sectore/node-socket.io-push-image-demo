@@ -1,10 +1,10 @@
 .content
 
-	p#info &nbs;
+	p#info
+		= " "
 	img#show-img(src='', width='0', height='0')
 
-script
-	$(document).ready( function() {
-		var ShowImageController = require("controllers/showimagecontroller");
-		var controller = new ShowImageController();
-	});
+:coffeescript
+	$(document).ready ->
+		ShowImageController = require "controllers/showimagecontroller"
+		controller = new ShowImageController();

@@ -2,7 +2,7 @@
 	ol
 		li
 			a(href='./stream') Open a second window
-			&nbsp;and link it to&nbsp;
+			= " and link it to "
 			a(href='./showimage', target='_blank') ./showimage
 		li Click to any image to push its data
 		li Check result in&nbsp;
@@ -17,9 +17,7 @@
 			li
 				img.my-image(src='#{path}', title='Pic no. #{i}')
 
-
-script
-	$(document).ready( function() {
-		var HomeController = require("controllers/homecontroller");
-		var controller = new HomeController();
-	});
+:coffeescript
+	$(document).ready ->
+		HomeController = require "controllers/homecontroller"
+		controller = new HomeController();
